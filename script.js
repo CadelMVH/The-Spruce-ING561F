@@ -901,30 +901,6 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   }
  },
  {
-  "class": "Video",
-  "label": "ING 561F The Spruce",
-  "video": {
-   "height": 1080,
-   "class": "VideoResource",
-   "mp4Url": "media/video_BE9368BE_AA06_9534_41E2_A790404DA6F6.mp4",
-   "width": 1920
-  },
-  "thumbnailUrl": "media/video_BE9368BE_AA06_9534_41E2_A790404DA6F6_t.jpg",
-  "width": 1920,
-  "id": "video_BE9368BE_AA06_9534_41E2_A790404DA6F6",
-  "loop": false,
-  "height": 1080,
-  "scaleMode": "fit_inside"
- },
- {
-  "displayPlaybackBar": true,
-  "id": "MainViewerVideoPlayer",
-  "class": "VideoPlayer",
-  "buttonRestart": "this.IconButton_4EEC4AA5_5E2B_1FC1_41CD_C80D0BF61440",
-  "viewerArea": "this.MainViewer",
-  "buttonPause": "this.IconButton_61E428A1_4578_EA6B_41C7_D3AB6346672D"
- },
- {
   "partial": false,
   "hfovMax": 120,
   "id": "panorama_BDCB6627_AA02_BCD4_41DC_210DB4223AEB",
@@ -1225,6 +1201,30 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   }
  },
  {
+  "class": "Video",
+  "label": "ING 561F The Spruce",
+  "video": {
+   "height": 1080,
+   "class": "VideoResource",
+   "mp4Url": "media/video_BD6A2B94_AA02_ABF4_41D0_0478343EFDEF.mp4",
+   "width": 1920
+  },
+  "thumbnailUrl": "media/video_BD6A2B94_AA02_ABF4_41D0_0478343EFDEF_t.jpg",
+  "width": 1920,
+  "id": "video_BD6A2B94_AA02_ABF4_41D0_0478343EFDEF",
+  "loop": false,
+  "height": 1080,
+  "scaleMode": "fit_inside"
+ },
+ {
+  "displayPlaybackBar": true,
+  "id": "MainViewerVideoPlayer",
+  "class": "VideoPlayer",
+  "buttonRestart": "this.IconButton_4EEC4AA5_5E2B_1FC1_41CD_C80D0BF61440",
+  "viewerArea": "this.MainViewer",
+  "buttonPause": "this.IconButton_61E428A1_4578_EA6B_41C7_D3AB6346672D"
+ },
+ {
   "class": "PlayList",
   "id": "mainPlayList",
   "items": [
@@ -1300,47 +1300,47 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "camera": "this.panorama_B97D96E8_AA0F_9D5C_41DD_2839FBBED21C_camera"
    },
    {
-    "player": "this.MainViewerVideoPlayer",
-    "media": "this.video_BE9368BE_AA06_9534_41E2_A790404DA6F6",
-    "class": "VideoPlayListItem",
-    "begin": "this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer); this.setEndToItemIndex(this.mainPlayList, 10, 11)",
-    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.mainPlayList, 10, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.mainPlayList, 10, this.video_BE9368BE_AA06_9534_41E2_A790404DA6F6)"
-   },
-   {
-    "begin": "this.setEndToItemIndex(this.mainPlayList, 11, 12)",
+    "begin": "this.setEndToItemIndex(this.mainPlayList, 10, 11)",
     "media": "this.panorama_BDCB6627_AA02_BCD4_41DC_210DB4223AEB",
     "class": "PanoramaPlayListItem",
     "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_BDCB6627_AA02_BCD4_41DC_210DB4223AEB_camera"
    },
    {
-    "begin": "this.setEndToItemIndex(this.mainPlayList, 12, 13)",
+    "begin": "this.setEndToItemIndex(this.mainPlayList, 11, 12)",
     "media": "this.panorama_BDFDC12F_AA05_F4D5_41D5_DD86FB0AB43A",
     "class": "PanoramaPlayListItem",
     "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_BDFDC12F_AA05_F4D5_41D5_DD86FB0AB43A_camera"
    },
    {
-    "begin": "this.setEndToItemIndex(this.mainPlayList, 13, 14)",
+    "begin": "this.setEndToItemIndex(this.mainPlayList, 12, 13)",
     "media": "this.panorama_BEB3DD45_AA05_EF54_41A1_F54D15FB2955",
     "class": "PanoramaPlayListItem",
     "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_BEB3DD45_AA05_EF54_41A1_F54D15FB2955_camera"
    },
    {
-    "begin": "this.setEndToItemIndex(this.mainPlayList, 14, 15)",
+    "begin": "this.setEndToItemIndex(this.mainPlayList, 13, 14)",
     "media": "this.panorama_BEC7810B_AA05_B4DD_41CC_D85F393D6F99",
     "class": "PanoramaPlayListItem",
     "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_BEC7810B_AA05_B4DD_41CC_D85F393D6F99_camera"
    },
    {
-    "player": "this.MainViewerPanoramaPlayer",
+    "begin": "this.setEndToItemIndex(this.mainPlayList, 14, 15)",
     "media": "this.panorama_BC3267CA_AA05_BB5F_41DB_5937D0748CAB",
     "class": "PanoramaPlayListItem",
-    "camera": "this.panorama_BC3267CA_AA05_BB5F_41DB_5937D0748CAB_camera",
+    "player": "this.MainViewerPanoramaPlayer",
+    "camera": "this.panorama_BC3267CA_AA05_BB5F_41DB_5937D0748CAB_camera"
+   },
+   {
+    "begin": "this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer); this.setEndToItemIndex(this.mainPlayList, 15, 0)",
+    "media": "this.video_BD6A2B94_AA02_ABF4_41D0_0478343EFDEF",
+    "class": "VideoPlayListItem",
+    "player": "this.MainViewerVideoPlayer",
     "end": "this.trigger('tourEnded')",
-    "begin": "this.setEndToItemIndex(this.mainPlayList, 15, 0)"
+    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.mainPlayList, 15, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.mainPlayList, 15, this.video_BD6A2B94_AA02_ABF4_41D0_0478343EFDEF)"
    }
   ]
  },
@@ -1462,10 +1462,10 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "items": [
    {
     "begin": "this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer)",
-    "media": "this.video_BE9368BE_AA06_9534_41E2_A790404DA6F6",
+    "media": "this.video_BD6A2B94_AA02_ABF4_41D0_0478343EFDEF",
     "class": "VideoPlayListItem",
     "player": "this.MainViewerVideoPlayer",
-    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.ThumbnailList_881F2652_97D2_0B21_41E2_7C5FB1597965_playlist, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.ThumbnailList_881F2652_97D2_0B21_41E2_7C5FB1597965_playlist, 0, this.video_BE9368BE_AA06_9534_41E2_A790404DA6F6)"
+    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.ThumbnailList_881F2652_97D2_0B21_41E2_7C5FB1597965_playlist, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.ThumbnailList_881F2652_97D2_0B21_41E2_7C5FB1597965_playlist, 0, this.video_BD6A2B94_AA02_ABF4_41D0_0478343EFDEF)"
    }
   ]
  },
@@ -1545,46 +1545,46 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "camera": "this.panorama_B97D96E8_AA0F_9D5C_41DD_2839FBBED21C_camera"
    },
    {
-    "player": "this.MainViewerVideoPlayer",
-    "media": "this.video_BE9368BE_AA06_9534_41E2_A790404DA6F6",
-    "class": "VideoPlayListItem",
-    "begin": "this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer); this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 10, 11)",
-    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 10, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 10, this.video_BE9368BE_AA06_9534_41E2_A790404DA6F6)"
-   },
-   {
-    "begin": "this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 11, 12)",
+    "begin": "this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 10, 11)",
     "media": "this.panorama_BDCB6627_AA02_BCD4_41DC_210DB4223AEB",
     "class": "PanoramaPlayListItem",
     "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_BDCB6627_AA02_BCD4_41DC_210DB4223AEB_camera"
    },
    {
-    "begin": "this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 12, 13)",
+    "begin": "this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 11, 12)",
     "media": "this.panorama_BDFDC12F_AA05_F4D5_41D5_DD86FB0AB43A",
     "class": "PanoramaPlayListItem",
     "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_BDFDC12F_AA05_F4D5_41D5_DD86FB0AB43A_camera"
    },
    {
-    "begin": "this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 13, 14)",
+    "begin": "this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 12, 13)",
     "media": "this.panorama_BEB3DD45_AA05_EF54_41A1_F54D15FB2955",
     "class": "PanoramaPlayListItem",
     "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_BEB3DD45_AA05_EF54_41A1_F54D15FB2955_camera"
    },
    {
-    "begin": "this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 14, 15)",
+    "begin": "this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 13, 14)",
     "media": "this.panorama_BEC7810B_AA05_B4DD_41CC_D85F393D6F99",
     "class": "PanoramaPlayListItem",
     "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_BEC7810B_AA05_B4DD_41CC_D85F393D6F99_camera"
    },
    {
-    "begin": "this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 15, 0)",
+    "begin": "this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 14, 15)",
     "media": "this.panorama_BC3267CA_AA05_BB5F_41DB_5937D0748CAB",
     "class": "PanoramaPlayListItem",
     "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_BC3267CA_AA05_BB5F_41DB_5937D0748CAB_camera"
+   },
+   {
+    "player": "this.MainViewerVideoPlayer",
+    "media": "this.video_BD6A2B94_AA02_ABF4_41D0_0478343EFDEF",
+    "class": "VideoPlayListItem",
+    "begin": "this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer); this.setEndToItemIndex(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 15, 0)",
+    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 15, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 15, this.video_BD6A2B94_AA02_ABF4_41D0_0478343EFDEF)"
    }
   ]
  }
