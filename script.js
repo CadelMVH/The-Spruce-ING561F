@@ -1587,6 +1587,32 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 15, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist, 15, this.video_BD6A2B94_AA02_ABF4_41D0_0478343EFDEF)"
    }
   ]
+ },
+ {
+  "data": {
+   "label": "Woke up to the sunrise, golden on the ba (1)"
+  },
+  "id": "audio_BC582054_AA07_B54B_41E4_8B55163DA0BB",
+  "autoplay": true,
+  "audio": {
+   "mp3Url": "media/audio_BC582054_AA07_B54B_41E4_8B55163DA0BB.mp3",
+   "oggUrl": "media/audio_BC582054_AA07_B54B_41E4_8B55163DA0BB.ogg",
+   "class": "AudioResource"
+  },
+  "class": "MediaAudio"
+ },
+ {
+  "data": {
+   "label": "Woke up to the sunrise, golden on the ba"
+  },
+  "id": "audio_BC336061_AA07_B54C_41E3_B83C04629FA0",
+  "autoplay": true,
+  "audio": {
+   "mp3Url": "media/audio_BC336061_AA07_B54C_41E3_B83C04629FA0.mp3",
+   "oggUrl": "media/audio_BC336061_AA07_B54C_41E3_B83C04629FA0.ogg",
+   "class": "AudioResource"
+  },
+  "class": "MediaAudio"
  }
 ], "children": [
  {
@@ -2522,7 +2548,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  "scrollBarMargin": 2,
  "verticalAlign": "top",
- "start": "this.syncPlaylists([this.thumbnaillist5245_playlist,this.ThumbnailList_881F2652_97D2_0B21_41E2_7C5FB1597965_playlist,this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist,this.mainPlayList]); this.mainPlayList.set('selectedIndex', 0)",
+ "start": "this.syncPlaylists([this.thumbnaillist5245_playlist,this.ThumbnailList_881F2652_97D2_0B21_41E2_7C5FB1597965_playlist,this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist,this.mainPlayList]); this.mainPlayList.set('selectedIndex', 0); this.playAudioList([this.audio_BC582054_AA07_B54B_41E4_8B55163DA0BB, this.audio_BC336061_AA07_B54C_41E3_B83C04629FA0])",
  "paddingBottom": 0,
  "shadow": false,
  "paddingRight": 0
