@@ -258,35 +258,35 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -6.85,
+     "targetYaw": 27.51,
+     "class": "TargetPanoramaCameraMovement",
      "easing": "linear",
-     "yawDelta": 323
+     "path": "shortest"
     },
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 25.61,
+     "yawSpeed": 50.45,
+     "targetPitch": -7.98,
+     "targetYaw": 50.62,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BAFFE9AC_AA03_77D4_41DA_86280D8C96D1_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 44.54,
-   "pitch": -15.11
+   "yaw": -146.65,
+   "pitch": -9.21
   }
  },
  {
@@ -327,35 +327,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -3.96,
+     "targetYaw": -28.26,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_B845DB64_AA06_AB54_41CA_E139D7B9072F_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": 112.3,
+   "pitch": -4.4
   }
  },
  {
@@ -396,35 +387,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -3.58,
+     "targetYaw": -138.17,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_B9DD6378_AA07_FB3C_41D8_0028A109D757_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": 96.97,
+   "pitch": 1.38
   }
  },
  {
@@ -465,35 +447,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -3.96,
+     "targetYaw": 131.01,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BEDD7FC9_AA02_AB5C_41AA_33D6DD71DFC6_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": -45.47,
+   "pitch": -5.28
   }
  },
  {
@@ -534,35 +507,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -3.2,
+     "targetYaw": 44.47,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_B92D9117_AA0D_74F4_41E3_27D12029F811_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": -130.51,
+   "pitch": -4.9
   }
  },
  {
@@ -603,35 +567,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": 1.57,
+     "targetYaw": 133.4,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BF0B67E7_AA0D_7B54_41DE_B02E01B9686F_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": -27.63,
+   "pitch": -1.13
   }
  },
  {
@@ -672,35 +627,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -2.07,
+     "targetYaw": 98.86,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BF3E1ECA_AA0D_6D5C_41B2_CFE61E23285C_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": -31.65,
+   "pitch": -2.01
   }
  },
  {
@@ -741,35 +687,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -3.2,
+     "targetYaw": -127.62,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BE471579_AA0D_9F3C_41C2_317D983DD24C_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": 79.64,
+   "pitch": 5.78
   }
  },
  {
@@ -810,35 +747,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": 6.85,
+     "targetYaw": 63.94,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BF777C42_AA0D_AD4C_41C5_39574D599428_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": -137.79,
+   "pitch": 10.68
   }
  },
  {
@@ -923,35 +851,53 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": 0.31,
+     "targetYaw": 107.52,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     },
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -0.44,
+     "targetYaw": -165.05,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     },
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -0.31,
+     "targetYaw": -61.67,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
+    },
+    {
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -0.19,
+     "targetYaw": -173.59,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_B97D96E8_AA0F_9D5C_41DD_2839FBBED21C_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": -32.03,
+   "pitch": 1.76
   }
  },
  {
@@ -1016,35 +962,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": -3.33,
+     "targetYaw": -94.33,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BDCB6627_AA02_BCD4_41DC_210DB4223AEB_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": 86.67,
+   "pitch": 4.52
   }
  },
  {
@@ -1085,35 +1022,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": 3.45,
+     "targetYaw": 154.25,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BDFDC12F_AA05_F4D5_41D5_DD86FB0AB43A_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": -42.33,
+   "pitch": 1.26
   }
  },
  {
@@ -1154,35 +1082,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": 0.94,
+     "targetYaw": 94.21,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BEB3DD45_AA05_EF54_41A1_F54D15FB2955_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": -52,
+   "pitch": 9.42
   }
  },
  {
@@ -1223,35 +1142,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": 0.44,
+     "targetYaw": 52,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BEC7810B_AA05_B4DD_41CC_D85F393D6F99_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": -101.74,
+   "pitch": -3.64
   }
  },
  {
@@ -1292,35 +1202,26 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "automaticZoomSpeed": 10,
   "initialSequence": {
-   "restartMovementOnUserInteraction": false,
    "class": "PanoramaCameraSequence",
    "movements": [
     {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_in",
-     "yawDelta": 18.5
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "linear",
-     "yawDelta": 323
-    },
-    {
-     "class": "DistancePanoramaCameraMovement",
-     "yawSpeed": 7.96,
-     "easing": "cubic_out",
-     "yawDelta": 18.5
+     "pitchSpeed": 17.05,
+     "yawSpeed": 33.25,
+     "targetPitch": 1.07,
+     "targetYaw": 64.69,
+     "class": "TargetPanoramaCameraMovement",
+     "easing": "cubic_in_out",
+     "path": "shortest"
     }
-   ]
+   ],
+   "restartMovementOnUserInteraction": false
   },
   "id": "panorama_BC3267CA_AA05_BB5F_41DB_5937D0748CAB_camera",
   "class": "PanoramaCamera",
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 0,
-   "pitch": 0
+   "yaw": -124.23,
+   "pitch": 3.39
   }
  },
  {
