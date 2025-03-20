@@ -45,7 +45,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 1344.83,
+        "x": 1344.68,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -61,7 +61,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 209.23
+        "y": 209.1
        },
        "data": {
         "label": "Entry"
@@ -99,7 +99,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 1338.21,
+        "x": 1338.11,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -115,7 +115,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 530.53
+        "y": 530.44
        },
        "data": {
         "label": "Hallway"
@@ -153,7 +153,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 1734.26,
+        "x": 1734.15,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -169,7 +169,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 655.53
+        "y": 655.44
        },
        "data": {
         "label": "Living Room"
@@ -207,7 +207,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 2173.84,
+        "x": 2173.74,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -223,7 +223,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 476.61
+        "y": 476.57
        },
        "data": {
         "label": "Den"
@@ -261,7 +261,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 1778.89,
+        "x": 1778.82,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -277,7 +277,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 329.3
+        "y": 329.22
        },
        "data": {
         "label": "Kitchen"
@@ -315,7 +315,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 1805.55,
+        "x": 1805.48,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -331,7 +331,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 925.29
+        "y": 925.17
        },
        "data": {
         "label": "Living Room"
@@ -369,7 +369,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 1294.08,
+        "x": 1294,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -385,7 +385,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 629.96
+        "y": 629.92
        },
        "data": {
         "label": "Hallway"
@@ -423,7 +423,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 1203.63,
+        "x": 1203.53,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -439,7 +439,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 1100.94
+        "y": 1100.85
        },
        "data": {
         "label": "Den"
@@ -477,7 +477,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 1184.08,
+        "x": 1184.01,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -493,7 +493,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 377.38
+        "y": 377.27
        },
        "data": {
         "label": "Bath 2"
@@ -531,7 +531,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 926.27,
+        "x": 926.11,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -547,7 +547,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 653.65
+        "y": 653.57
        },
        "data": {
         "label": "Hallway/Utility"
@@ -585,7 +585,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 675.48,
+        "x": 675.34,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -601,7 +601,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 1130.07
+        "y": 1129.95
        },
        "data": {
         "label": "Bedroom 2"
@@ -639,7 +639,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 699.47,
+        "x": 699.37,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -655,7 +655,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 643.48
+        "y": 643.43
        },
        "data": {
         "label": "Master Bed"
@@ -693,7 +693,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 689.5,
+        "x": 689.42,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -709,7 +709,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 305.6
+        "y": 305.57
        },
        "data": {
         "label": "Master Bed/Closet"
@@ -747,7 +747,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 232.23,
+        "x": 232.18,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -763,7 +763,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 691.18
+        "y": 691.11
        },
        "data": {
         "label": "Master Bed/Bath"
@@ -801,7 +801,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "AreaHotspotMapOverlay",
        "map": {
         "offsetY": 0,
-        "x": 241.42,
+        "x": 241.38,
         "width": 90,
         "class": "HotspotMapOverlayMap",
         "height": 90,
@@ -817,7 +817,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           }
          ]
         },
-        "y": 1006.15
+        "y": 1006.07
        },
        "data": {
         "label": "Master Bath"
@@ -2355,8 +2355,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PlayList",
   "items": [
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A08415_B1E0_8FAE_41C1_6CDEA0D95C63, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A08415_B1E0_8FAE_41C1_6CDEA0D95C63",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BECB680E_B1E3_87BA_41B0_ABC341310189, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BECB680E_B1E3_87BA_41B0_ABC341310189",
     "media": "this.panorama_BAFFE9AC_AA03_77D4_41DA_86280D8C96D1",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BAFFE9AC_AA03_77D4_41DA_86280D8C96D1_camera",
@@ -2364,8 +2364,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 0, 1)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A0F415_B1E0_8FAE_41DC_2358E3995797, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A0F415_B1E0_8FAE_41DC_2358E3995797",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BECBC80E_B1E3_87BA_41E2_E01787B0F259, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BECBC80E_B1E3_87BA_41E2_E01787B0F259",
     "media": "this.panorama_B845DB64_AA06_AB54_41CA_E139D7B9072F",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_B845DB64_AA06_AB54_41CA_E139D7B9072F_camera",
@@ -2373,8 +2373,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 1, 2)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A03416_B1E0_8FAA_41C8_C72B4D87C386, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A03416_B1E0_8FAA_41C8_C72B4D87C386",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC8180E_B1E3_87BA_41D3_778E82CCFF22, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC8180E_B1E3_87BA_41D3_778E82CCFF22",
     "media": "this.panorama_B9DD6378_AA07_FB3C_41D8_0028A109D757",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_B9DD6378_AA07_FB3C_41D8_0028A109D757_camera",
@@ -2382,8 +2382,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 2, 3)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A06416_B1E0_8FAA_41DC_28B06DA2B9A1, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A06416_B1E0_8FAA_41DC_28B06DA2B9A1",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC8680E_B1E3_87BA_41C0_1EA53BFDCFD3, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC8680E_B1E3_87BA_41C0_1EA53BFDCFD3",
     "media": "this.panorama_BEDD7FC9_AA02_AB5C_41AA_33D6DD71DFC6",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BEDD7FC9_AA02_AB5C_41AA_33D6DD71DFC6_camera",
@@ -2391,8 +2391,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 3, 4)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A1D416_B1E0_8FAA_41C7_C91DD2D78D69, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A1D416_B1E0_8FAA_41C7_C91DD2D78D69",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC8B80E_B1E3_87BA_41DC_ECB20D927214, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC8B80E_B1E3_87BA_41DC_ECB20D927214",
     "media": "this.panorama_B92D9117_AA0D_74F4_41E3_27D12029F811",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_B92D9117_AA0D_74F4_41E3_27D12029F811_camera",
@@ -2400,8 +2400,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 4, 5)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A10416_B1E0_8FAA_4136_EDD00D970824, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A10416_B1E0_8FAA_4136_EDD00D970824",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC9080F_B1E3_87BA_41E3_E1852347B605, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC9080F_B1E3_87BA_41E3_E1852347B605",
     "media": "this.panorama_BF0B67E7_AA0D_7B54_41DE_B02E01B9686F",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BF0B67E7_AA0D_7B54_41DE_B02E01B9686F_camera",
@@ -2409,8 +2409,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 5, 6)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A28416_B1E0_8FAA_41B3_BD6FC45BC85A, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A28416_B1E0_8FAA_41B3_BD6FC45BC85A",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC9580F_B1E3_87BA_41E3_4567D3FED7DF, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC9580F_B1E3_87BA_41E3_4567D3FED7DF",
     "media": "this.panorama_BF3E1ECA_AA0D_6D5C_41B2_CFE61E23285C",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BF3E1ECA_AA0D_6D5C_41B2_CFE61E23285C_camera",
@@ -2418,8 +2418,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 6, 7)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A2F416_B1E0_8FAA_41D8_C75D78BB9FF0, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A2F416_B1E0_8FAA_41D8_C75D78BB9FF0",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC9B80F_B1E3_87BA_41D4_B733396C680C, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC9B80F_B1E3_87BA_41D4_B733396C680C",
     "media": "this.panorama_BE471579_AA0D_9F3C_41C2_317D983DD24C",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BE471579_AA0D_9F3C_41C2_317D983DD24C_camera",
@@ -2427,8 +2427,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 7, 8)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A22417_B1E0_8FAA_41B4_3A75EC7213C2, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A22417_B1E0_8FAA_41B4_3A75EC7213C2",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC9F80F_B1E3_87BA_41E2_A0FFB5A1ADC4, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC9F80F_B1E3_87BA_41E2_A0FFB5A1ADC4",
     "media": "this.panorama_BF777C42_AA0D_AD4C_41C5_39574D599428",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BF777C42_AA0D_AD4C_41C5_39574D599428_camera",
@@ -2436,8 +2436,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 8, 9)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A26417_B1E0_8FAA_41D1_E29D86010835, this.MapViewerMapPlayer); this.MainViewerPanoramaPlayer.set('displayPlaybackBar', false)",
-    "id": "PanoramaPlayListItem_A1A26417_B1E0_8FAA_41D1_E29D86010835",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC6580F_B1E3_87BA_41D9_A15DDC6B5A6A, this.MapViewerMapPlayer); this.MainViewerPanoramaPlayer.set('displayPlaybackBar', false)",
+    "id": "PanoramaPlayListItem_BEC6580F_B1E3_87BA_41D9_A15DDC6B5A6A",
     "media": "this.panorama_B97D96E8_AA0F_9D5C_41DD_2839FBBED21C",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_B97D96E8_AA0F_9D5C_41DD_2839FBBED21C_camera",
@@ -2445,8 +2445,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 9, 10)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A3D417_B1E0_8FAA_41E2_4FFE7C230BED, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A3D417_B1E0_8FAA_41E2_4FFE7C230BED",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC6B810_B1E3_87A6_418C_CB3FF802C5BD, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC6B810_B1E3_87A6_418C_CB3FF802C5BD",
     "media": "this.panorama_BDCB6627_AA02_BCD4_41DC_210DB4223AEB",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BDCB6627_AA02_BCD4_41DC_210DB4223AEB_camera",
@@ -2454,8 +2454,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 10, 11)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A30417_B1E0_8FAA_41D5_817570D919CD, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A30417_B1E0_8FAA_41D5_817570D919CD",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC71810_B1E3_87A6_41E3_908839C5B723, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC71810_B1E3_87A6_41E3_908839C5B723",
     "media": "this.panorama_BDFDC12F_AA05_F4D5_41D5_DD86FB0AB43A",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BDFDC12F_AA05_F4D5_41D5_DD86FB0AB43A_camera",
@@ -2463,8 +2463,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 11, 12)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1A37417_B1E0_8FAA_41E5_D44118EECFF5, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1A37417_B1E0_8FAA_41E5_D44118EECFF5",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC76810_B1E3_87A6_41DC_444DB5D58B88, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC76810_B1E3_87A6_41DC_444DB5D58B88",
     "media": "this.panorama_BEB3DD45_AA05_EF54_41A1_F54D15FB2955",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BEB3DD45_AA05_EF54_41A1_F54D15FB2955_camera",
@@ -2472,8 +2472,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 12, 13)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1BCA418_B1E0_8FA6_41CC_D91B8C625DE8, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1BCA418_B1E0_8FA6_41CC_D91B8C625DE8",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC7B810_B1E3_87A6_41B8_988DF599920B, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC7B810_B1E3_87A6_41B8_988DF599920B",
     "media": "this.panorama_BEC7810B_AA05_B4DD_41CC_D85F393D6F99",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BEC7810B_AA05_B4DD_41CC_D85F393D6F99_camera",
@@ -2481,8 +2481,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "begin": "this.setEndToItemIndex(this.mainPlayList, 13, 14)"
    },
    {
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_A1BC0418_B1E0_8FA6_41B2_3CF946C176B4, this.MapViewerMapPlayer)",
-    "id": "PanoramaPlayListItem_A1BC0418_B1E0_8FA6_41B2_3CF946C176B4",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_BEC40810_B1E3_87A6_41E2_FCD5DBEE443E, this.MapViewerMapPlayer)",
+    "id": "PanoramaPlayListItem_BEC40810_B1E3_87A6_41E2_FCD5DBEE443E",
     "media": "this.panorama_BC3267CA_AA05_BB5F_41DB_5937D0748CAB",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_BC3267CA_AA05_BB5F_41DB_5937D0748CAB_camera",
@@ -2766,7 +2766,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  "this.map_B3C1CD12_A9FD_ACCC_41C6_DA8B81313D1E",
  {
-  "id": "playList_A1A71415_B1E0_8FAE_41E3_E8265F0371E0",
+  "id": "playList_BECAC80E_B1E3_87BA_41E4_F0C2F812E531",
   "class": "PlayList",
   "items": [
    {
@@ -2778,7 +2778,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   ]
  },
  {
-  "id": "playList_A1A70415_B1E0_8FAE_41D5_7C45A39CF1EC",
+  "id": "playList_BECAD80E_B1E3_87BA_41D0_22986CE660D8",
   "class": "PlayList",
   "items": [
    {
@@ -3609,7 +3609,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "paddingTop": 0
  }
 ], 
- "start": "this.playAudioList([this.audio_BC582054_AA07_B54B_41E4_8B55163DA0BB, this.audio_BC336061_AA07_B54C_41E3_B83C04629FA0]); this.syncPlaylists([this.thumbnaillist5245_playlist,this.ThumbnailList_881F2652_97D2_0B21_41E2_7C5FB1597965_playlist,this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist,this.mainPlayList]); this.mainPlayList.set('selectedIndex', 0); this.playList_A1A70415_B1E0_8FAE_41D5_7C45A39CF1EC.set('selectedIndex', 0)",
+ "start": "this.playAudioList([this.audio_BC582054_AA07_B54B_41E4_8B55163DA0BB, this.audio_BC336061_AA07_B54C_41E3_B83C04629FA0]); this.syncPlaylists([this.thumbnaillist5245_playlist,this.ThumbnailList_881F2652_97D2_0B21_41E2_7C5FB1597965_playlist,this.ThumbnailList_6618B1BF_44D8_DA57_41A6_0D2589AAC96B_playlist,this.mainPlayList]); this.mainPlayList.set('selectedIndex', 0); this.playList_BECAD80E_B1E3_87BA_41D0_22986CE660D8.set('selectedIndex', 0)",
  "borderSize": 0,
  "scrollBarVisible": "rollOver",
  "paddingRight": 0,
